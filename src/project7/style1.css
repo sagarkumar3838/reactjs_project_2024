@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #b7bfc1;
+  width: 100vw;
+}
+
+.testimonials {
+  text-align: center;
+  font-family: sans-serif;
+  border-radius: 10px;
+  padding: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #f0fdfe;
+}
+
+.testimonials-quote {
+  font-size: 22px;
+  font-style: italic;
+  margin-bottom: 10px;
+  color: #666;
+}
+
+.testimonials-author {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.testimonials-nav {
+  display: flex;
+  justify-content: space-between;
+   /* Center the buttons horizontally */
+  gap: 10px; /* Add space between buttons */
+}
+
+.testimonials-nav button {
+  padding: 10px 20px; /* Adjust padding for better appearance */
+  border: none;
+  background-color: #4aa8b0;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  background-image: radial-gradient(93% 87% at 87% 89%, rgba(0, 0, 0, 0.23) 0%, transparent 86.18%), radial-gradient(66% 66% at 26% 20%, rgba(255, 255, 255, 0.55) 0%, rgba(255, 255, 255, 0) 69.79%, rgba(255, 255, 255, 0) 100%);
+  box-shadow: inset -3px -3px 9px rgba(255, 255, 255, 0.25), inset 0px 3px 9px rgba(255, 255, 255, 0.3), inset 0px 1px 1px rgba(255, 255, 255, 0.6), inset 0px -8px 36px rgba(0, 0, 0, 0.3), inset 0px 1px 5px rgba(255, 255, 255, 0.6), 2px 19px 31px rgba(0, 0, 0, 0.2);
+}
+
+.testimonials-nav button:hover {
+  background-color: #1c4b4b;
+}
+
+.testimonials-nav button:active {
+  transform: scale(1.1);
+}
+
+.left-btn {
+  margin-top: 30rem;
+  margin-right: 47rem;
+  width: 100px;
+  border: 2px solid green;
+}
+
+.right-btn {
+  margin-top: 30rem;
+  margin-right: 40rem;
+  width: 100px;
+  border: 2px solid blue;
+}
+
+.upper{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.below{
+  margin-bottom: 3rem;
+  background: linear-gradient(125deg ,#FF5E00, #4D1C00);
+}

@@ -5,11 +5,13 @@ import Meals from './project3/Meals'
 import Calculator from './project4/Calculator'
 import BgColorChanger from './project5/BgColorChanger'
 import SearchBar from './project6/SearchBar'
+import Testimonial from './project7/Testimonial'
 
 const App = () => {
   return (
     <div>
-    <SearchBar/>
+       <Testimonial/>
+   {/* <SearchBar/>*/}
    {/* <BgColorChanger/>*/}
     {/*<Calculator/>*/}
     {/*<Meals/>*/}
