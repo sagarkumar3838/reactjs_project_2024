@@ -1,0 +1,22 @@
+
+    {/*
+    add in the app.jsx file.
+    
+     <div className='accordion'>
+      {accordionData.map(({title , content})=>(
+        <Accordian title={title} content={content} />
+      ))}
+    
+     
+      {/* <Testimonial/>}
+      {/* <SearchBar/>}
+      {/* <BgColorChanger/>}
+      {/*<Calculator/>}
+      {/*<Meals/>}
+      {/*  <Todo/>}
+      {/*  <Counter/>}
+
+      </div>
+    */
+   }
+    
